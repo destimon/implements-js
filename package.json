@@ -1,0 +1,22 @@
+{
+  "name": "implements",
+  "version": "1.0.0",
+  "description": "",
+  "main": "im_promise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/destimon/implements-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/destimon/implements-js/issues"
+  },
+  "homepage": "https://github.com/destimon/implements-js#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
