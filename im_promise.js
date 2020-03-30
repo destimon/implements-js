@@ -23,15 +23,15 @@ class im_Promise {
   then = (callback) => {
     if (this.state == 'fulfilled') {
       callback(this.data);
-      return this;
     }
+    return this;
   }
 
   catch = (callback) => {
     if (this.state == 'rejected') {
       callback(this.err);
-      return this;
     }
+    return this;
   }
 }
 
@@ -40,9 +40,9 @@ class im_Promise {
     console.log('out1');
     reject('error1');
   })
-  // .then(data => {
-  //   console.log(data);
-  // })
+  .then(data => {
+    console.log(data);
+  })
   .catch(err => {
     console.log(err);
   })
