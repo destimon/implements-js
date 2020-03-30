@@ -35,27 +35,4 @@ class im_Promise {
   }
 }
 
-(async () => {
-  let prom = new im_Promise(function(resolve, reject) {
-    console.log('out1');
-    reject('error1');
-  })
-  .then(data => {
-    console.log(data);
-  })
-  .catch(err => {
-    console.log(err);
-  })
-  
-  let prom2 = new Promise(function(resolve, reject) {
-    console.log('out2');
-    reject('error2');
-  })
-  .then(data => {
-    console.log(data);
-  })
-  .catch(err => {
-    console.log(err);
-  })
-})();
-
+module.exports = im_Promise;
